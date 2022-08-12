@@ -1,0 +1,26 @@
+{
+    "name": "anakadote/statamic-recaptcha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Collins",
+            "homepage": "https://endif.io"
+        }  
+    ],
+    "autoload": {
+        "psr-4": {
+            "Anakadote\\StatamicRecaptcha\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic reCAPTCHA (v3 and v2)",
+            "description": "A reCAPTCHA v3 and v2 addon."
+        },
+        "laravel": {
+            "providers": [
+                "Anakadote\\StatamicRecaptcha\\ServiceProvider"
+            ]
+        }
+    }
+}
